@@ -17,7 +17,7 @@ print(
 )
 from timesfm.timesfm_base import freq_map, TimesFmCheckpoint, TimesFmHparams, TimesFmBase
 print("Loaded Jax TimesFM.")
-from timesfm.timesfm_jax import TimesFmJax
+from timesfm.timesfm_jax import TimesFmJax as TimesFm
 from timesfm import data_loader
 print("Loaded PyTorch TimesFM.")
 from timesfm.timesfm_torch import TimesFmTorch
